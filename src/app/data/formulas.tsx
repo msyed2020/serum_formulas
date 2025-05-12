@@ -54,8 +54,8 @@ export const formulas = [
     {
       id: 'sinx2',
       name: 'sin(x * 2)',
-      image: '/images/sin(x*2).png',
-      description: 'Increases the frequency of the sine wave, producing a higher tone.',
+      image: '/images/sin(x2).png',
+      description: 'Increases the amplitude of the sine wave, producing a higher tone.',
       category: 'Modulation',
     },
     {
