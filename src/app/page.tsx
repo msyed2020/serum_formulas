@@ -10,7 +10,7 @@ export default function Home() {
         {formulas.map((f) => (
           <li key={f.id} className="border border-gray-700 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-[#182040]">
             <div className="flex items-start gap-6">
-              <div className="w-32 h-32 bg-black flex items-center justify-center rounded-md">
+              <div className="w-32 h-32 bg-black flex items-center justify-center rounded-md overflow-hidden p-2">
                 <Image
                   src={f.image}
                   alt={`Waveform for ${f.name}`}

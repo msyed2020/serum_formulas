@@ -82,7 +82,7 @@ export const formulas = [
     {
       id: 'sinx_signx',
       name: 'sin(x) * sign(x)',
-      image: '/images/sin(x)*sign(x).png',
+      image: '/images/sin(x) t sign(x).png',
       description: 'Creates a phase-modulated sine wave with square-like aggression.',
       category: 'Modulation',
     },
@@ -102,24 +102,11 @@ export const formulas = [
       description: 'More aggressive soft clipping than atan. Adds warmth and saturation.',
       category: 'Distortion',
     },
-    {
-      id: 'modx1',
-      name: 'mod(x, 1)',
-      image: '/images/mod(x,1).png',
-      description: 'Creates a repeating sawtooth-like pattern. Great for rhythmic effects.',
-      category: 'Distortion',
-    },
-    {
-      id: 'fractx',
-      name: 'fract(x)',
-      image: '/images/fract(x).png',
-      description: 'Extracts the fractional part of x, producing repeating patterns similar to mod.',
-      category: 'Distortion',
-    },
+    
     {
       id: 'sincx',
       name: 'sin(x)/x',
-      image: '/images/sinc(x).png',
+      image: '/images/sin(x) d x.png',
       description: 'Sinc function, often used in filters. Produces a rounded central peak with side lobes.',
       category: 'Distortion',
     },
@@ -151,38 +138,30 @@ export const formulas = [
     {
       id: 'sin_sum',
       name: 'sin(x) + sin(2x)/2',
-      image: '/images/sin(x)+sin(2x)/2.png',
+      image: '/images/sin(x) + sin(2x) d 2.png',
       description: 'Adds a harmonic to the sine wave, resulting in a brighter sound.',
       category: 'Combination',
     },
     {
       id: 'sin_modulated',
       name: 'sin(x) * sin(x^2)',
-      image: '/images/sin(x)*sin(x^2).png',
+      image: '/images/sin(x) t sin(x^2).png',
       description: 'Modulates a sine wave with a nonlinear curve. Great for gritty textures.',
       category: 'Combination',
     },
     {
       id: 'sinx_mult_x',
       name: 'sin(x) * x',
-      image: '/images/sin(x)*x.png',
+      image: '/images/sin(x) t x.png',
       description: 'Amplitude modulation of sine wave. Adds complexity as amplitude changes.',
       category: 'Combination',
     },
     {
       id: 'additive_sine',
       name: '(sin(x) + sin(2x) + sin(3x)) / 3',
-      image: '/images/(sin(x)+sin(2x)+sin(3x))/3.png',
+      image: '/images/(sin(x) + sin(2x) + sin(3x)) d 3.png',
       description: 'Classic additive synthesis formula. Creates a fuller, harmonic-rich wave.',
       category: 'Combination',
     },
   
-    // Noise / Chaos
-    {
-      id: 'fract_sin_noise',
-      name: 'fract(sin(x * 43758.5453))',
-      image: '/images/fract(sin(x*43758.5453)).png',
-      description: 'Generates pseudorandom values, useful for noise and chaotic textures.',
-      category: 'Noise',
-    },
   ];
