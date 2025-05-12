@@ -160,7 +160,7 @@ export const formulas = [
       id: 'additive_sine',
       name: '(sin(x) + sin(2x) + sin(3x)) / 3',
       image: '/images/(sin(x) + sin(2x) + sin(3x)) d 3.png',
-      description: 'Classic additive synthesis formula. Creates a fuller, harmonic-rich wave.',
+      description: 'Classic additive synthesis formula. Creates a wave with more harmonics.',
       category: 'Combination',
     },
   
