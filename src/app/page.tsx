@@ -1,5 +1,5 @@
 // pages/index.tsx
-import { formulas } from '@/data/formulas';
+import { formulas } from './data/formulas';
 
 export default function Home() {
   return (
