@@ -5,7 +5,10 @@ import Image from 'next/image';
 export default function Home() {
   return (
     <main className="max-w-4xl mx-auto p-8 min-h-screen bg-[#10182A]">
-      <h1 className="text-3xl font-bold mb-8 text-white">Serum Formula Parser Reference</h1>
+      <div className="flex items-baseline mb-8">
+        <h1 className="text-3xl font-bold text-white">Serum Formula Parser Reference</h1>
+        <span className="text-lg text-blue-200 font-light ml-4">by Mikail Syed</span>
+      </div>
       <ul className="grid gap-6">
         {formulas.map((f) => (
           <li key={f.id} className="border border-gray-700 p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow bg-[#182040]">
